@@ -5,8 +5,8 @@ class PasswordChecker {
     }
 }
 
-class TestPasswordChecker {
-    public static void Main(String[] args) {
+class Main {
+    public static void main(String[] args) {
         PasswordChecker checker = new PasswordChecker();
         assert !checker.isValid("abcdefg") : "7 characters must be invalid";
         assert checker.isValid("abcdefgh") : "8 characters must be valid";
@@ -17,6 +17,4 @@ class TestPasswordChecker {
     }
 }
 
-
- 
 
